@@ -1,0 +1,117 @@
+.rounded-image {
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+.category {
+    text-decoration: none;
+    font-size: 36px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    
+}
+.no-underline {
+    text-decoration: none;
+}
+#myLink {
+    text-decoration: none;
+}
+body {
+    background-image: url(background.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+    background-color: #8d8a8a;
+}
+.trending { background-color: #ff9f43; }
+.breakfast { background-color: #6ab04c; }
+.lunch { background-color: #3498db; }
+.snacks { background-color: #f39c12; }
+.dinner { background-color: #e74c3c; }
+.desserts { background-color: #9b59b6; }
+.search { background-color: #ff9f43;}
+
+.recipe-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: bold; 
+}
+
+ul li {
+    text-align: left;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+p {
+    margin-top: 10px;
+    align-content: end;
+}
+.recipecard {
+    display: flex;
+    align-self: center;
+}
